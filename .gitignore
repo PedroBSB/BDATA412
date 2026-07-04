@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.idea/
+.DS_Store
+~$*
+*.pdf
+*.tex
+generate_*.py
+build_*.py
+omml_equations.py
+Template.pptx
+Class_01_Linear_Algebra.pptx
+Linear Algebra/

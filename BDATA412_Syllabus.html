@@ -1,0 +1,581 @@
+<div style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; max-width: 960px; margin: 0 auto; color: #333; line-height: 1.6;">
+    <div style="background: linear-gradient(135deg, #4b2e83 0%, #85754d 100%); color: #fff; padding: 40px 35px 30px; border-radius: 8px 8px 0 0; text-align: center;">
+        <h1 style="margin: 0 0 5px; font-size: 32px; color: #fff;">B DATA 412 &mdash; Advanced Data Visualization</h1>
+        <p style="margin: 0; font-size: 18px; color: #e8e3d3;">Autumn 2026 &bull; University of Washington</p>
+        <p style="margin: 8px 0 0; font-size: 14px; color: #e8e3d3;">5 Credits &bull; RSN</p>
+    </div>
+    <div style="padding: 30px 35px; background: #fafafa; border-width: medium 1px 1px; border-style: none solid solid; border-color: currentcolor #e0ddd5 #e0ddd5; border-radius: 0px 0px 8px 8px;">
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; margin-top: 0; font-size: 24px;">General Information</h2>
+        <div style="display: flex; flex-wrap: wrap; gap: 25px; margin-bottom: 25px;">
+            <div style="flex: 1 1 0%; min-width: 280px; background: #ffffff; border-width: 1px 1px 1px 4px; border-style: solid; border-color: #e0ddd5 #e0ddd5 #e0ddd5 #4b2e83; border-radius: 4px; padding: 20px;">
+                <h3 style="color: #4b2e83; margin-top: 0; font-size: 18px;">Instructor</h3>
+                <p style="margin: 5px 0;"><strong>Prof. Dr. Pedro H. M. Albuquerque</strong></p>
+                <p style="margin: 5px 0;">PhD in Quantitative Methods (Finance)</p>
+                <p style="margin: 5px 0;">Staff Data Scientist &amp; Adjunct Professor</p>
+                <p style="margin: 10px 0 5px;"><strong>Email:</strong> <a style="color: #4b2e83;" href="mailto:pedroalb@uw.edu">pedroalb@uw.edu</a></p>
+                <p style="margin: 5px 0;"><strong>Website:</strong> <a style="color: #4b2e83;" href="https://sites.uw.edu/pedroalb/" target="_blank" rel="noopener">sites.uw.edu/pedroalb</a></p>
+                <p style="margin: 5px 0;"><strong>Messaging Preference:</strong> Canvas message</p>
+            </div>
+            <div style="flex: 1 1 0%; min-width: 280px; background: #ffffff; border-width: 1px 1px 1px 4px; border-style: solid; border-color: #e0ddd5 #e0ddd5 #e0ddd5 #b7a57a; border-radius: 4px; padding: 20px;">
+                <h3 style="color: #4b2e83; margin-top: 0; font-size: 18px;">Class Details</h3>
+                <p style="margin: 5px 0;"><strong>Schedule:</strong> Tue &amp; Thu, 1:15 &ndash; 3:15 PM</p>
+                <p style="margin: 5px 0;"><strong>Room:</strong> UW1 120</p>
+                <p style="margin: 5px 0;"><strong>Format:</strong> Hybrid (in-person + online components)</p>
+                <p style="margin: 5px 0;"><strong>Prerequisites:</strong> B DATA 200 and B DATA 232</p>
+                <p style="margin: 10px 0 5px;"><strong>Office Hours:</strong></p>
+                <p style="margin: 5px 0;">Fridays 4:00 &ndash; 6:00 PM (by appointment)</p>
+                <p style="margin: 5px 0; font-size: 13px; color: #666;"><em>Please schedule at least 24 hours in advance.</em></p>
+            </div>
+        </div>
+        <div style="background: #f3f0eb; border-radius: 6px; padding: 18px 22px; margin-bottom: 25px; border: 1px solid #e0ddd5;">
+            <h3 style="color: #4b2e83; margin-top: 0; font-size: 16px;">Communication Norms</h3>
+            <p style="margin: 5px 0 10px; font-size: 14px;"><strong>Please use Canvas to contact me.</strong></p>
+            <ul style="margin: 5px 0; padding-left: 20px; font-size: 14px;">
+                <li>Use <strong>Canvas</strong> for all classroom-related communication.</li>
+                <li>I respond within <strong>24 hours on weekdays</strong>. I schedule reading and replying to messages during weekdays for late morning or early afternoon. I try to be away from my computer on weekends and holidays, but I will reply the next business day.</li>
+                <li>If you have not received a reply after two business days, please send a follow-up message via Canvas, since I may have missed a notification or failed to reply.</li>
+                <li>I expect you to check Canvas regularly so I can communicate with each of you electronically between class meetings. Turn on notifications if you use Canvas as an application.</li>
+            </ul>
+        </div>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Course Description</h2>
+        <p>Provides advanced training on visualization methods to show data in complex and compelling ways. Applies complex visualization methods to examine topics including project management, the grammar of graphics, data types, data structure, modeling, complex and interactive data visualization, and data dashboards.</p>
+        <p>This course builds on the foundations from B DATA 200 and B DATA 232 to take students deep into the mathematical and computational machinery behind advanced data visualization. Students will master the linear algebra that underlies dimensionality reduction, learn to identify natural groupings in data through cluster analysis, and extract latent structures using eigenvalue decomposition, correspondence analysis, and neural-network-based embeddings. Throughout, students will translate theory into practice using Python in Google Colab, producing compelling interactive visualizations that communicate complex multivariate relationships.</p>
+        <p>The central question of this course is: <strong>how do we reveal and communicate hidden structure in high-dimensional data through visualization?</strong></p>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Course Objectives</h2>
+        <ul style="padding-left: 20px;">
+            <li>Understand the mathematical foundations (linear algebra, distance metrics, eigenvalue decomposition) that power advanced visualization techniques.</li>
+            <li>Apply cluster analysis methods (K-Means, Hierarchical, DBSCAN) to discover natural groupings in multivariate data and visualize results effectively.</li>
+            <li>Implement dimensionality reduction techniques (PCA, Correspondence Analysis, MDS, t-SNE, UMAP, Autoencoders) to project high-dimensional data into interpretable low-dimensional visualizations.</li>
+            <li>Critically evaluate and select appropriate methods based on data characteristics, research questions, and audience needs.</li>
+            <li>Produce publication-quality interactive visualizations using Python libraries (matplotlib, plotnine, plotly, scikit-learn, NetworkX).</li>
+            <li>Communicate complex analytical results to both technical and non-technical audiences through data storytelling.</li>
+        </ul>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Learning Outcomes</h2>
+        <p>By the end of this course, students will be able to:</p>
+        <ol style="padding-left: 20px;">
+            <li>Represent data as vectors and matrices, and perform operations (dot product, norms, matrix multiplication, eigenvalue decomposition) relevant to data visualization.</li>
+            <li>Compute and interpret covariance and correlation matrices, and explain the role of standardization in multivariate analysis.</li>
+            <li>Apply and compare clustering algorithms (K-Means, Agglomerative, DBSCAN, t-SNE, UMAP), validate results using silhouette scores and elbow methods, and produce cluster-based visualizations.</li>
+            <li>Perform PCA, Correspondence Analysis, MDS, and Autoencoders to reduce dimensionality and create biplots, factor maps, and embedding visualizations.</li>
+            <li>Design and deliver an end-to-end data analysis project with advanced visualizations, from data preparation through presentation.</li>
+            <li>Use LLM tools and prompt engineering effectively to support advanced data analysis and visualization workflows in Google Colab.</li>
+        </ol>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Course Schedule &mdash; 8 Sections</h2>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 25px; font-size: 14px;">
+            <thead>
+                <tr style="background: #4b2e83; color: #fff;">
+                    <th style="padding: 12px 15px; text-align: left; width: 8%; border: 1px solid #3a2368;">Sec.</th>
+                    <th style="padding: 12px 15px; text-align: left; width: 12%; border: 1px solid #3a2368;">Weeks</th>
+                    <th style="padding: 12px 15px; text-align: left; width: 30%; border: 1px solid #3a2368;">Topic</th>
+                    <th style="padding: 12px 15px; text-align: left; width: 50%; border: 1px solid #3a2368;">Key Content &amp; Google Colab Labs</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background: #fff;">
+                    <td style="padding: 10px 15px; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">1</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Sep 29 &ndash; Oct 1</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;"><strong>Curse of Dimensionality &amp; Linear Algebra Foundations</strong></td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Distance concentration; sparsity; KNN breakdown; overfitting risk; vectors &amp; matrices; scalar multiplication; vector addition/subtraction; dot product; norms (L1, L2, L&infin;); cosine similarity.<br><em>Lab:</em> Implementing vector operations, distance computation, and KNN in Python.</td>
+                </tr>
+                <tr style="background: #f8f7f4;">
+                    <td style="padding: 10px 15px; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">2</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Oct 6 &ndash; Oct 8</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;"><strong>Matrix Operations &amp; Data Geometry</strong></td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Matrix-vector &amp; matrix-matrix multiplication; linear transformations (rotation, scaling, shear, projection); determinant; matrix inverse; covariance &amp; correlation matrices; standardization (z-scores); correlation as distance.<br><em>Lab:</em> Building covariance/correlation matrices from data; visualizing transformations; heatmaps.</td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td style="padding: 10px 15px; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">3</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Oct 13 &ndash; Oct 15</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;"><strong>K-Means &amp; Hierarchical Clustering</strong></td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">What is a cluster; data matrix &amp; distance matrix; Gram matrix trick; K-Means objective &amp; Lloyd's algorithm; k-means++ initialization; matrix form; elbow method; agglomerative clustering; linkage types (single, complete, average, Ward); dendrograms; Lance&ndash;Williams formula; cophenetic correlation.<br><em>Lab:</em> K-Means from scratch; scikit-learn clustering; dendrogram visualization; elbow plots.</td>
+                </tr>
+                <tr style="background: #f8f7f4;">
+                    <td style="padding: 10px 15px; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">4</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Oct 20 &ndash; Oct 22</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;"><strong>DBSCAN, t-SNE &amp; UMAP</strong></td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Density-based clustering (core, border, noise points); DBSCAN algorithm; choosing &epsilon; (k-distance plot); non-convex shapes; t-SNE (affinities, KL divergence, perplexity); UMAP (local connectivity, fuzzy union, cross-entropy); cluster validation (silhouette, F-statistic); cluster profiling &amp; personas.<br><em>Lab:</em> DBSCAN on non-convex data; t-SNE &amp; UMAP embeddings; interactive plotly visualizations; silhouette analysis.</td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td style="padding: 10px 15px; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">5</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Oct 27 &ndash; Oct 29</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;"><strong>Principal Component Analysis (PCA)</strong></td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Eigenvectors &amp; eigenvalues; geometric intuition of PCA; covariance eigen-decomposition; loadings &amp; scores; variance explained; scree plot &amp; Kaiser rule; biplots; PCA via SVD; correlation-based PCA.<br><em>Lab:</em> PCA from scratch using eigenvalues; scikit-learn PCA; biplot construction; interactive variance-explained plots.</td>
+                </tr>
+                <tr style="background: #f8f7f4;">
+                    <td style="padding: 10px 15px; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">6</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Nov 3 &ndash; Nov 5</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;"><strong>Correspondence Analysis &amp; MCA</strong></td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Chi-squared test for contingency tables; CA decomposition of Pearson &chi;&sup2;; profiles &amp; inertia; SVD &amp; coordinates; reading a CA map; contributions (CTR) &amp; quality (cos&sup2;); Multiple Correspondence Analysis (MCA); indicator matrix; Burt matrix.<br><em>Lab:</em> CA on contingency tables; MCA on survey data; factor maps; interactive correspondence plots.</td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td style="padding: 10px 15px; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">7</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Nov 10 &ndash; Nov 12</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;"><strong>Multidimensional Scaling &amp; Autoencoders</strong></td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Classical MDS (double-centering, Gram matrix, coordinates); stress &amp; goodness-of-fit; metric vs non-metric MDS; MDS vs PCA; autoencoders (encoder/decoder architecture, bottleneck, reconstruction loss); forward pass &amp; SGD; linear AE &equiv; PCA; nonlinear AE advantages.<br><em>Lab:</em> MDS from distance matrices; stress computation; building a simple autoencoder in PyTorch/TensorFlow; embedding visualization.</td>
+                </tr>
+                <tr style="background: #f8f7f4;">
+                    <td style="padding: 10px 15px; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">8</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Nov 17 &ndash; Dec 3</td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;"><strong>Applied Project &amp; Presentations</strong></td>
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Integration of all methods; project work sessions; method selection framework; peer feedback; <strong>in-person presentations (last week: Dec 1 &amp; Dec 3)</strong>.<br><em>Lab:</em> Full end-to-end project in Google Colab combining clustering + dimensionality reduction + interactive visualization.</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Quarter Calendar</h2>
+        <p style="font-size: 14px; margin-bottom: 8px;">Classes meet <strong>Tuesdays &amp; Thursdays, 1:15 &ndash; 3:15 PM</strong>. Class days are highlighted in <span style="background: #4b2e83; color: #fff; padding: 1px 8px; border-radius: 3px; font-size: 12px;">purple</span>. Milestones are marked in <span style="background: #b7a57a; color: #fff; padding: 1px 8px; border-radius: 3px; font-size: 12px;">gold</span>. Days with no class are shown in <span style="background: #f3f0eb; color: #333333; padding: 1px 8px; border-radius: 3px; font-size: 12px; border: 1px solid #e0ddd5;">light gray</span>.</p>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 25px;">
+            <!-- September 2026 -->
+            <div style="flex: 1 1 0%; min-width: 280px; background: #ffffff; border-radius: 6px; overflow: hidden; border: 1px solid #e0ddd5;">
+                <div style="background: #4b2e83; color: #fff; padding: 10px 15px; text-align: center; font-size: 16px;">September 2026</div>
+                <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: center;">
+                    <thead>
+                        <tr style="background: #f3f0eb;">
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Sun</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Mon</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Tue</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Wed</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Thu</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Fri</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Sat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">1</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">2</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">3</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">4</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">5</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">6</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">7</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">8</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">9</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">10</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">11</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">12</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">13</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">14</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">15</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">16</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">17</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">18</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">19</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">20</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">21</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">22</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">23</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">24</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">25</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">26</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">27</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">28</td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">29</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">30</td>
+                            <td style="padding: 8px 2px; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; border: 1px solid #e0ddd5;"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- October 2026 -->
+            <div style="flex: 1 1 0%; min-width: 280px; background: #ffffff; border-radius: 6px; overflow: hidden; border: 1px solid #e0ddd5;">
+                <div style="background: #4b2e83; color: #fff; padding: 10px 15px; text-align: center; font-size: 16px;">October 2026</div>
+                <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: center;">
+                    <thead>
+                        <tr style="background: #f3f0eb;">
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Sun</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Mon</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Tue</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Wed</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Thu</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Fri</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Sat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">1</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">2</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">3</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">4</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">5</td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">6</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">7</td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">8</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">9</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">10</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">11</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">12</td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">13</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">14</td>
+                            <td style="padding: 8px 2px; background: #b7a57a; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;" title="Exam 1 (in-class)">15</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">16</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">17</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">18</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">19</td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">20</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">21</td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">22</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">23</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">24</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">25</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">26</td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">27</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">28</td>
+                            <td style="padding: 8px 2px; background: #b7a57a; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;" title="Exam 2 (in-class)">29</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">30</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">31</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div style="display: flex; flex-wrap: wrap; gap: 20px; margin-bottom: 25px;">
+            <!-- November 2026 -->
+            <div style="flex: 1 1 0%; min-width: 280px; background: #ffffff; border-radius: 6px; overflow: hidden; border: 1px solid #e0ddd5;">
+                <div style="background: #4b2e83; color: #fff; padding: 10px 15px; text-align: center; font-size: 16px;">November 2026</div>
+                <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: center;">
+                    <thead>
+                        <tr style="background: #f3f0eb;">
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Sun</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Mon</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Tue</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Wed</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Thu</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Fri</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Sat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">1</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">2</td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">3</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">4</td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">5</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">6</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">7</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">8</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">9</td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">10</td>
+                            <td style="padding: 8px 2px; background: #f3f0eb; color: #999999; border-radius: 3px; border: 1px solid #e0ddd5;" title="Veterans Day">11</td>
+                            <td style="padding: 8px 2px; background: #b7a57a; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;" title="Exam 3 (in-class)">12</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">13</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">14</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">15</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">16</td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">17</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">18</td>
+                            <td style="padding: 8px 2px; background: #4b2e83; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;">19</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">20</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">21</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">22</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">23</td>
+                            <td style="padding: 8px 2px; background: #f3f0eb; color: #999999; border-radius: 3px; border: 1px solid #e0ddd5;" title="Thanksgiving Break">24</td>
+                            <td style="padding: 8px 2px; background: #f3f0eb; color: #999999; border-radius: 3px; border: 1px solid #e0ddd5;" title="Thanksgiving Break">25</td>
+                            <td style="padding: 8px 2px; background: #f3f0eb; color: #999999; border-radius: 3px; border: 1px solid #e0ddd5;" title="Thanksgiving">26</td>
+                            <td style="padding: 8px 2px; background: #f3f0eb; color: #999999; border-radius: 3px; border: 1px solid #e0ddd5;" title="Thanksgiving Break">27</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">28</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">29</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">30</td>
+                            <td style="padding: 8px 2px; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; border: 1px solid #e0ddd5;"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <!-- December 2026 -->
+            <div style="flex: 1 1 0%; min-width: 280px; background: #ffffff; border-radius: 6px; overflow: hidden; border: 1px solid #e0ddd5;">
+                <div style="background: #4b2e83; color: #fff; padding: 10px 15px; text-align: center; font-size: 16px;">December 2026</div>
+                <table style="width: 100%; border-collapse: collapse; font-size: 13px; text-align: center;">
+                    <thead>
+                        <tr style="background: #f3f0eb;">
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Sun</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Mon</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Tue</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Wed</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Thu</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Fri</th>
+                            <th style="padding: 6px 2px; width: 14.28%; border: 1px solid #e0ddd5;">Sat</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; background: #b7a57a; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;" title="Presentations Day 1">1</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">2</td>
+                            <td style="padding: 8px 2px; background: #b7a57a; color: #ffffff; border-radius: 3px; border: 1px solid #e0ddd5;" title="Presentations Day 2">3</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">4</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">5</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">6</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">7</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">8</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">9</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">10</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">11</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">12</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">13</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">14</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">15</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">16</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">17</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">18</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">19</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">20</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">21</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">22</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">23</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">24</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">25</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">26</td>
+                        </tr>
+                        <tr>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">27</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">28</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">29</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">30</td>
+                            <td style="padding: 8px 2px; color: #cccccc; border: 1px solid #e0ddd5;">31</td>
+                            <td style="padding: 8px 2px; border: 1px solid #e0ddd5;"></td>
+                            <td style="padding: 8px 2px; border: 1px solid #e0ddd5;"></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div style="background: #ffffff; border-width: 1px 1px 1px 4px; border-style: solid; border-color: #e0ddd5 #e0ddd5 #e0ddd5 #b7a57a; border-radius: 4px; padding: 18px 20px; margin-bottom: 25px;">
+            <h3 style="color: #4b2e83; margin: 0 0 12px; font-size: 16px;">Key Dates &amp; Milestones</h3>
+            <table style="width: 100%; border-collapse: collapse; font-size: 14px;">
+                <tbody>
+                    <tr>
+                        <td style="padding: 6px 12px; border-bottom: 1px solid #f0ede7; color: #85754d;">Sep 29 (Tue)</td>
+                        <td style="padding: 6px 12px; border-bottom: 1px solid #f0ede7;">First day of class</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 6px 12px; border-bottom: 1px solid #f0ede7; color: #85754d;">Oct 15 (Thu)</td>
+                        <td style="padding: 6px 12px; border-bottom: 1px solid #f0ede7;"><strong>Exam 1 (in-class)</strong> &mdash; Sections 1 &amp; 2 (Linear Algebra &amp; Data Geometry)</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 6px 12px; border-bottom: 1px solid #f0ede7; color: #85754d;">Oct 29 (Thu)</td>
+                        <td style="padding: 6px 12px; border-bottom: 1px solid #f0ede7;"><strong>Exam 2 (in-class)</strong> &mdash; Sections 3 &amp; 4 (Cluster Analysis)</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 6px 12px; border-bottom: 1px solid #f0ede7; color: #85754d;">Nov 12 (Thu)</td>
+                        <td style="padding: 6px 12px; border-bottom: 1px solid #f0ede7;"><strong>Exam 3 (in-class)</strong> &mdash; Sections 5, 6 &amp; 7 (Latent Variables &amp; Embeddings)</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 6px 12px; border-bottom: 1px solid #f0ede7; color: #85754d;">Nov 24&ndash;27</td>
+                        <td style="padding: 6px 12px; border-bottom: 1px solid #f0ede7;"><strong>Thanksgiving Break</strong> &mdash; No class</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 6px 12px; border-bottom: 1px solid #f0ede7; color: #85754d;">Dec 1 &amp; 3 (Tue &amp; Thu)</td>
+                        <td style="padding: 6px 12px; border-bottom: 1px solid #f0ede7;"><strong>Applied Project In-Person Presentations</strong> (mandatory attendance)</td>
+                    </tr>
+                    <tr>
+                        <td style="padding: 6px 12px; color: #85754d;">Nov 29 (Sun)</td>
+                        <td style="padding: 6px 12px;"><strong>Applied Project Google Colab Notebook due</strong> (submit before presentations)</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Requirements &amp; Grading</h2>
+        <table style="width: 100%; border-collapse: collapse; margin-bottom: 20px; font-size: 14px;">
+            <thead>
+                <tr style="background: #4b2e83; color: #fff;">
+                    <th style="padding: 12px 15px; text-align: left; border: 1px solid #3a2368;">Component</th>
+                    <th style="padding: 12px 15px; text-align: center; width: 15%; border: 1px solid #3a2368;">Weight</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr style="background: #fff;">
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Online Exercises (weekly Google Colab assignments)</td>
+                    <td style="padding: 10px 15px; text-align: center; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">20%</td>
+                </tr>
+                <tr style="background: #f8f7f4;">
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Exam 1 &mdash; Linear Algebra &amp; Data Geometry (Sections 1&ndash;2)</td>
+                    <td style="padding: 10px 15px; text-align: center; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">20%</td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Exam 2 &mdash; Cluster Analysis (Sections 3&ndash;4)</td>
+                    <td style="padding: 10px 15px; text-align: center; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">20%</td>
+                </tr>
+                <tr style="background: #f8f7f4;">
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Exam 3 &mdash; Latent Variables &amp; Embeddings (Sections 5&ndash;7)</td>
+                    <td style="padding: 10px 15px; text-align: center; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">20%</td>
+                </tr>
+                <tr style="background: #fff;">
+                    <td style="padding: 10px 15px; border: 1px solid #e0ddd5;">Applied Project &mdash; Google Colab + Mandatory In-Person Presentation</td>
+                    <td style="padding: 10px 15px; text-align: center; color: #4b2e83; font-weight: bold; border: 1px solid #e0ddd5;">20%</td>
+                </tr>
+                <tr style="background: #4b2e83; color: #fff;">
+                    <td style="padding: 10px 15px; font-weight: bold; border: 1px solid #3a2368;">Total</td>
+                    <td style="padding: 10px 15px; text-align: center; font-weight: bold; border: 1px solid #3a2368;">100%</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h3 style="color: #4b2e83; font-size: 18px;">GPA Calculation</h3>
+        <div style="background: #f3f0eb; border-radius: 6px; padding: 15px 20px; margin-bottom: 25px; border: 1px solid #e0ddd5;">
+            <p style="margin: 0 0 8px; font-size: 14px;"><strong>GPA Formula:</strong> Use the following formula to estimate your GPA:</p>
+            <p style="margin: 0; font-size: 14px; text-align: center;"><strong>GPA = (Percentage &minus; 55) / 10</strong></p>
+            <p style="margin: 8px 0 0; font-size: 13px; color: #555;">Example: 85% &rarr; (85 &minus; 55) / 10 = 3.0. The scale is capped at 4.0 (i.e., 95% and above = 4.0) and the minimum passing grade is 0.7 (approximately 62%). I reserve the right to round grades up at the end of the quarter. For more information, refer to <a style="color: #4b2e83;" href="https://www.washington.edu/students/gencat/front/Grading_Sys.html" target="_blank" rel="noopener">UW&rsquo;s policies on undergraduate grading</a>.</p>
+        </div>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Assignment Details</h2>
+        <div style="background: #ffffff; border-width: 1px 1px 1px 4px; border-style: solid; border-color: #e0ddd5 #e0ddd5 #e0ddd5 #4b2e83; border-radius: 4px; padding: 18px 20px; margin-bottom: 15px;">
+            <h3 style="color: #4b2e83; margin: 0 0 8px; font-size: 16px;">Online Exercises (20%)</h3>
+            <p style="margin: 0 0 10px; font-size: 14px;">Weekly assignments completed in <strong>Google Colab</strong> that reinforce the concepts from each section. Exercises include implementing algorithms from scratch (e.g., KNN, K-Means, PCA), computing matrix operations, generating visualizations, and interpreting results. Exercises are due by the start of the following week's class and are graded for correctness and code quality.</p>
+            <ul style="margin: 5px 0; padding-left: 20px; font-size: 14px;">
+                <li>Submitted as shared Google Colab links on Canvas.</li>
+                <li>Each exercise is worth equal weight; the lowest score is dropped.</li>
+                <li>Collaboration is encouraged but each student must submit their own notebook.</li>
+            </ul>
+        </div>
+        <div style="background: #ffffff; border-width: 1px 1px 1px 4px; border-style: solid; border-color: #e0ddd5 #e0ddd5 #e0ddd5 #b7a57a; border-radius: 4px; padding: 18px 20px; margin-bottom: 15px;">
+            <h3 style="color: #4b2e83; margin: 0 0 8px; font-size: 16px;">Exams (20% each &times; 3 = 60% total)</h3>
+            <p style="margin: 0 0 10px; font-size: 14px;">Three exams assess conceptual understanding and computational skills. Exams are <strong>in-class on Thursdays</strong> during regular class time (1:15 &ndash; 3:15 PM). Each exam covers the material from its designated sections:</p>
+            <div style="margin-left: 10px;">
+                <p style="margin: 4px 0; font-size: 14px;"><strong>Exam 1 (Thu, Oct 15):</strong> Curse of dimensionality, vectors, matrices, norms, dot product, cosine similarity, matrix operations, determinant, inverse, covariance &amp; correlation matrices, standardization.</p>
+                <p style="margin: 4px 0; font-size: 14px;"><strong>Exam 2 (Thu, Oct 29):</strong> K-Means (objective, Lloyd's algorithm, matrix form), hierarchical clustering (linkage, dendrograms), DBSCAN, t-SNE, UMAP, cluster validation (silhouette, elbow, F-statistic).</p>
+                <p style="margin: 4px 0; font-size: 14px;"><strong>Exam 3 (Thu, Nov 12):</strong> PCA (eigenvalues, eigenvectors, loadings, scores, SVD), Correspondence Analysis (&chi;&sup2;, inertia, profiles), MCA, MDS (double-centering, stress), autoencoders (forward pass, loss, linear AE &equiv; PCA).</p>
+            </div>
+            <p style="margin: 10px 0 0; font-size: 14px;">Exams include both analytical problems (hand computation) and Python coding questions.</p>
+        </div>
+        <div style="background: #ffffff; border-width: 1px 1px 1px 4px; border-style: solid; border-color: #e0ddd5 #e0ddd5 #e0ddd5 #4b2e83; border-radius: 4px; padding: 18px 20px; margin-bottom: 15px;">
+            <h3 style="color: #4b2e83; margin: 0 0 8px; font-size: 16px;">Applied Project &mdash; Google Colab + In-Person Presentation (20%)</h3>
+            <p style="margin: 0 0 12px; font-size: 14px;">A comprehensive data analysis project completed individually or in groups of up to 3 students. The project demonstrates mastery of the course material by applying multiple techniques to a real-world dataset. Components:</p>
+            <div style="margin-left: 10px;">
+                <p style="margin: 0 0 4px; font-size: 14px;"><strong>Google Colab Notebook (10%)</strong></p>
+                <p style="margin: 0 0 12px; font-size: 14px; color: #555;">A polished, reproducible notebook that includes: data description and preprocessing, at least one clustering method, at least one dimensionality reduction technique, interactive visualizations (plotly), and a written interpretation of findings. Due: <strong>November 29</strong>.</p>
+                <p style="margin: 0 0 4px; font-size: 14px;"><strong>In-Person Presentation (10%)</strong></p>
+                <p style="margin: 0 0 12px; font-size: 14px; color: #555;">A 10&ndash;15 minute in-person presentation during the last week of class (<strong>December 1 or December 3</strong>). All group members must present. The presentation should communicate the problem, methods, key visualizations, and insights to a mixed audience. <strong>Attendance at both presentation days is mandatory.</strong></p>
+            </div>
+        </div>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Course Materials</h2>
+        <h3 style="color: #4b2e83; font-size: 18px;">Software</h3>
+        <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 20px;">
+            <div style="flex: 1 1 0%; min-width: 200px; background: #ffffff; border-radius: 6px; padding: 15px; text-align: center; border: 1px solid #e0ddd5;">
+                <div style="font-size: 24px; margin-bottom: 6px;">&#x1F4BB;</div>
+                <h4 style="color: #4b2e83; margin: 0 0 4px; font-size: 14px;">Google Colab</h4>
+                <p style="margin: 0; font-size: 12px; color: #666;">Primary coding environment. Jupyter Notebooks in the cloud.</p>
+            </div>
+            <div style="flex: 1 1 0%; min-width: 200px; background: #ffffff; border-radius: 6px; padding: 15px; text-align: center; border: 1px solid #e0ddd5;">
+                <div style="font-size: 24px; margin-bottom: 6px;">&#x1F40D;</div>
+                <h4 style="color: #4b2e83; margin: 0 0 4px; font-size: 14px;">Python</h4>
+                <p style="margin: 0; font-size: 12px; color: #666;">NumPy, pandas, matplotlib, plotnine, plotly, scikit-learn, scipy, umap-learn</p>
+            </div>
+            <div style="flex: 1 1 0%; min-width: 200px; background: #ffffff; border-radius: 6px; padding: 15px; text-align: center; border: 1px solid #e0ddd5;">
+                <div style="font-size: 24px; margin-bottom: 6px;">&#x1F4DA;</div>
+                <h4 style="color: #4b2e83; margin: 0 0 4px; font-size: 14px;">Canvas</h4>
+                <p style="margin: 0; font-size: 12px; color: #666;">Materials, assignments, grades, recorded lectures, and exams.</p>
+            </div>
+        </div>
+        <div style="background: #f3f0eb; border-radius: 6px; padding: 15px 20px; margin-bottom: 25px; border: 1px solid #e0ddd5;">
+            <p style="margin: 0; font-size: 14px;"><strong>Textbook:</strong> A textbook is not required for this course. All readings and materials will be made available electronically through Canvas. Recommended reference: <em>Applied Multivariate Analysis</em> (Springer Texts in Statistics) by Neil H. Timm.</p>
+        </div>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Late Work Policy</h2>
+        <div style="background: #fff7e6; border-width: 1px 1px 1px 4px; border-style: solid; border-color: #e0ddd5 #e0ddd5 #e0ddd5 #b7a57a; border-radius: 4px; padding: 18px 20px; margin-bottom: 25px;">
+            <ul style="margin: 0; padding-left: 18px; font-size: 14px;">
+                <li>Exams are <strong>in-class</strong> and must be taken on the scheduled date. Make-up exams require prior arrangement with the instructor and documented justification.</li>
+            </ul>
+        </div>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Classroom Norms &amp; Conduct</h2>
+        <p style="font-size: 14px;">All course materials and presentations will be made available on Canvas. This class focuses on professional and scholarly communication and you should practice this when working with me and your peers. It is appropriate to challenge each other intellectually and naturally to face conflict when working on difficult tasks. Learning can be uncomfortable, but it should not be harmful. Treat each other with respect and prioritize safety.</p>
+        <p style="font-size: 14px;">The class will begin promptly and on time. You do not need permission from the instructor to take breaks. We will use computers and electronic resources frequently. Please be proactive in creating a focused learning environment and minimize distractions for yourself and your peers.</p>
+        <div style="display: flex; flex-wrap: wrap; gap: 15px; margin-bottom: 25px;">
+            <div style="flex: 1 1 0%; min-width: 280px; background: #ffffff; border-radius: 6px; padding: 18px; border: 1px solid #e0ddd5;">
+                <h4 style="color: #4b2e83; margin: 0 0 8px;">The Pocket Rule</h4>
+                <p style="margin: 0; font-size: 14px;">When helping another student with coding, you may not take the keyboard or mouse from their possession. To help them learn independently, you must keep your hands at your side or in your pockets and provide instructions verbally.</p>
+            </div>
+            <div style="flex: 1 1 0%; min-width: 280px; background: #ffffff; border-radius: 6px; padding: 18px; border: 1px solid #e0ddd5;">
+                <h4 style="color: #4b2e83; margin: 0 0 8px;">The Ouch Rule</h4>
+                <p style="margin: 0; font-size: 14px;">When you feel offended, you can say, &ldquo;ouch.&rdquo; If someone says something you find inappropriate or offensive, say &ldquo;ouch&rdquo; to signal back to the person how you feel. To signal you recognize someone&rsquo;s ouch, reply, &ldquo;Oops.&rdquo;</p>
+            </div>
+        </div>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Academic Integrity</h2>
+        <div style="background: #ffffff; border-width: 1px 1px 1px 4px; border-style: solid; border-color: #e0ddd5 #e0ddd5 #e0ddd5 #4b2e83; border-radius: 4px; padding: 18px 20px; margin-bottom: 25px;">
+            <p style="margin: 0 0 10px; font-size: 14px;">Students are expected to uphold the highest standards of academic integrity. For this course:</p>
+            <ul style="margin: 5px 0; padding-left: 20px; font-size: 14px;">
+                <li><strong>Online Exercises:</strong> Collaboration and discussion are encouraged. You may use LLM tools (ChatGPT, Claude, etc.) to assist your learning, but you must understand and be able to explain all code you submit.</li>
+                <li><strong>Exams:</strong> Individual work only, completed in-class. You may use your notes and slides, but you may not consult other people, share answers, or use electronic devices beyond what is explicitly permitted by the instructor.</li>
+                <li><strong>Applied Project:</strong> Group collaboration within your team. Clearly attribute all external sources and AI-generated content.</li>
+            </ul>
+            <p style="margin: 10px 0 0; font-size: 14px;">Violations of academic integrity will be reported per <a style="color: #4b2e83;" href="https://www.uwb.edu/student-affairs/studentconduct/studentconduct-3" target="_blank" rel="noopener">UW Bothell's Academic Integrity policies</a>.</p>
+        </div>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Shared Policies &amp; Resources</h2>
+        <p style="font-size: 14px;">Please view the <a style="color: #4b2e83;" href="https://www.uwb.edu/ias/esyllabus" target="_blank" rel="noopener">IAS eSyllabus</a> for information about the following policies and resources:</p>
+        <div style="background: #ffffff; border-radius: 6px; padding: 18px 22px; margin-bottom: 25px; border: 1px solid #e0ddd5;">
+            <div style="display: flex; flex-wrap: wrap; gap: 10px;"><a style="background: #4b2e83; color: #fff; padding: 6px 14px; border-radius: 20px; font-size: 13px; text-decoration: none; display: inline-block;" href="https://www.uwb.edu/ias/undergraduate/learning-objectives" target="_blank" rel="noopener">Core Learning Objectives</a> <a style="background: #4b2e83; color: #fff; padding: 6px 14px; border-radius: 20px; font-size: 13px; text-decoration: none; display: inline-block;" href="https://www.uwb.edu/student-affairs/studentconduct/studentconduct-3" target="_blank" rel="noopener">Academic Integrity</a> <a style="background: #4b2e83; color: #fff; padding: 6px 14px; border-radius: 20px; font-size: 13px; text-decoration: none; display: inline-block;" href="https://www.uwb.edu/odei/" target="_blank" rel="noopener">Respect for Diversity</a> <a style="background: #85754d; color: #fff; padding: 6px 14px; border-radius: 20px; font-size: 13px; text-decoration: none; display: inline-block;" href="https://www.uwb.edu/student-affairs/drs" target="_blank" rel="noopener">Access &amp; Accommodations</a> <a style="background: #85754d; color: #fff; padding: 6px 14px; border-radius: 20px; font-size: 13px; text-decoration: none; display: inline-block;" href="https://registrar.washington.edu/staff-faculty/religious-accommodations-policy/" target="_blank" rel="noopener">Religious Accommodations</a> <a style="background: #85754d; color: #fff; padding: 6px 14px; border-radius: 20px; font-size: 13px; text-decoration: none; display: inline-block;" href="https://www.washington.edu/cssc/for-students/student-code-of-conduct/" target="_blank" rel="noopener">Student Code of Conduct</a> <a style="background: #85754d; color: #fff; padding: 6px 14px; border-radius: 20px; font-size: 13px; text-decoration: none; display: inline-block;" href="https://www.uwb.edu/academic-support-programs/" target="_blank" rel="noopener">Additional Resources &amp; Support Services</a></div>
+            <p style="margin: 12px 0 0; font-size: 14px; color: #555;">For complete information about institutional policies, student support services, and accommodations, please refer to the <strong>UW Policies</strong> page on Canvas and the university website.</p>
+        </div>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Course Repository</h2>
+        <div style="background: #ffffff; border-width: 1px 1px 1px 4px; border-style: solid; border-color: #e0ddd5 #e0ddd5 #e0ddd5 #4b2e83; border-radius: 4px; padding: 18px 20px; margin-bottom: 25px;">
+            <p style="font-size: 14px; margin: 0 0 10px;">All lecture slides, Google Colab notebooks, and datasets are available in the course GitHub repository:</p>
+            <p style="font-size: 14px; margin: 0;"><strong><a style="color: #4b2e83;" href="https://github.com/PedroBSB/BDATA412" target="_blank" rel="noopener">github.com/PedroBSB/BDATA412</a></strong></p>
+        </div>
+
+        <h2 style="color: #4b2e83; border-bottom: 3px solid #b7a57a; padding-bottom: 8px; font-size: 24px;">Syllabus Revisions</h2>
+        <p style="font-size: 14px;">You are responsible for all materials, updates, and announcements covered during class sessions. The course calendar may change due to unforeseen circumstances; please be sure you are using the most recent version. Check Canvas regularly so that I can communicate with each of you electronically between classes.</p>
+
+        <div style="text-align: center; padding: 20px 0 5px; border-top: 3px solid #b7a57a; margin-top: 30px;">
+            <p style="color: #4b2e83; font-size: 16px; margin: 0 0 4px;">B DATA 412 &mdash; Advanced Data Visualization</p>
+            <p style="color: #85754d; font-size: 13px; margin: 0 0 4px;">University of Washington &bull; Autumn 2026</p>
+            <p style="color: #999; font-size: 12px; margin: 0;">Prof. Dr. Pedro H. M. Albuquerque &bull; <a style="color: #4b2e83;" href="https://sites.uw.edu/pedroalb/" target="_blank" rel="noopener">sites.uw.edu/pedroalb</a></p>
+        </div>
+    </div>
+</div>
