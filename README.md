@@ -18,15 +18,25 @@ PhD in Quantitative Methods (Finance) · Staff Data Scientist & Adjunct Professo
 
 ## Course Structure — 8 Sections
 
-| Section | Topic | Slides | Notebook |
+Lecture slides are organized into three decks, one per exam block:
+
+| Deck | Covers | Exam |
+|------|--------|:----:|
+| [01 - Advanced Data Visualization.pptx](01%20-%20Advanced%20Data%20Visualization.pptx) | Sections 1–2 — Curse of Dimensionality, Linear Algebra & Data Geometry | Exam 1 |
+| [02 - Cluster Analysis.pptx](02%20-%20Cluster%20Analysis.pptx) | Sections 3–4 — K-Means, Hierarchical, DBSCAN, t-SNE, UMAP & Validation | Exam 2 |
+| [03 - Latent Variables.pptx](03%20-%20Latent%20Variables.pptx) | Sections 5–7 — PCA, Correspondence Analysis, MCA, MDS & Autoencoders | Exam 3 |
+
+Each section has its own Google Colab notebook:
+
+| Section | Topic | Slide Deck | Notebook |
 |:-------:|-------|--------|----------|
-| 1 | Curse of Dimensionality & Linear Algebra | [PPTX](Section_01_Dimensionality_Linear_Algebra.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/01_dimensionality_linear_algebra.ipynb) |
-| 2 | Matrix Operations & Data Geometry | [PPTX](Section_02_Matrix_Operations_Data_Geometry.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/02_matrix_operations_data_geometry.ipynb) |
-| 3 | K-Means & Hierarchical Clustering | [PPTX](Section_03_KMeans_Hierarchical_Clustering.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/03_kmeans_hierarchical_clustering.ipynb) |
-| 4 | DBSCAN, t-SNE & UMAP | [PPTX](Section_04_DBSCAN_tSNE_UMAP.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/04_dbscan_tsne_umap.ipynb) |
-| 5 | Principal Component Analysis (PCA) | [PPTX](Section_05_PCA.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/05_pca.ipynb) |
-| 6 | Correspondence Analysis & MCA | [PPTX](Section_06_Correspondence_Analysis_MCA.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/06_correspondence_analysis_mca.ipynb) |
-| 7 | MDS & Autoencoders | [PPTX](Section_07_MDS_Autoencoders.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/07_mds_autoencoders.ipynb) |
+| 1 | Curse of Dimensionality & Linear Algebra | [01 - Advanced Data Visualization.pptx](01%20-%20Advanced%20Data%20Visualization.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/01_dimensionality_linear_algebra.ipynb) |
+| 2 | Matrix Operations & Data Geometry | [01 - Advanced Data Visualization.pptx](01%20-%20Advanced%20Data%20Visualization.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/02_matrix_operations_data_geometry.ipynb) |
+| 3 | K-Means & Hierarchical Clustering | [02 - Cluster Analysis.pptx](02%20-%20Cluster%20Analysis.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/03_kmeans_hierarchical_clustering.ipynb) |
+| 4 | DBSCAN, t-SNE & UMAP | [02 - Cluster Analysis.pptx](02%20-%20Cluster%20Analysis.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/04_dbscan_tsne_umap.ipynb) |
+| 5 | Principal Component Analysis (PCA) | [03 - Latent Variables.pptx](03%20-%20Latent%20Variables.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/05_pca.ipynb) |
+| 6 | Correspondence Analysis & MCA | [03 - Latent Variables.pptx](03%20-%20Latent%20Variables.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/06_correspondence_analysis_mca.ipynb) |
+| 7 | MDS & Autoencoders | [03 - Latent Variables.pptx](03%20-%20Latent%20Variables.pptx) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/07_mds_autoencoders.ipynb) |
 | 8 | Applied Project | — | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/PedroBSB/BDATA412/blob/main/08_applied_project.ipynb) |
 
 ---
@@ -57,10 +67,11 @@ PhD in Quantitative Methods (Finance) · Staff Data Scientist & Adjunct Professo
 BDATA412/
 ├── README.md
 ├── BDATA412_Syllabus.html
-├── Section_01_...pptx through Section_07_...pptx   # Lecture slides
-├── 01_...ipynb through 08_...ipynb                  # Google Colab notebooks
-├── Data/                                            # Datasets (CSV)
-└── images/                                          # Images for notebooks
+├── 01 - Advanced Data Visualization.pptx   # Slides — Sections 1–2
+├── 02 - Cluster Analysis.pptx              # Slides — Sections 3–4
+├── 03 - Latent Variables.pptx              # Slides — Sections 5–7
+├── 01_...ipynb through 08_...ipynb         # Google Colab notebooks (one per section)
+└── Data/                                   # Datasets (CSV)
 ```
 
 ---
